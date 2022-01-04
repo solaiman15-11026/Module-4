@@ -5,8 +5,9 @@ body{
 h1{
     font-size: 45px;
 }
-section{
+.Flex-ok{
     display: flex;
+    margin-bottom: 100px;
 }
 div{
     width: 50%;
@@ -22,7 +23,48 @@ a{
     padding: 10px 20px;
     border-radius: 7px;
 }
-section{
+.maruf-done{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+.sami-done{
+    margin: 0px;
+    background-image:url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.high-ok{
+    box-shadow: 10px 10px 30px rgb(94, 90, 90);
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 40%;
+    padding-right:10px ;
+    
+
+}
+
+h2{
+    font-size: 30px;
+    
+}
+
+p{
+    text-align: justify;
+}
+.Flex-ok{
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+#run
+{
+    
+    border-left: 7px solid;
+    border-image: linear-gradient(red, blue) 27;
+    border-image-slice: 1;
+}
+#go{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(102, 255, 0), rgb(255, 0, 200)) 27;
+    border-image-slice: 1;
 }
